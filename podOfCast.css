@@ -32,3 +32,18 @@
     max-width: 74px;
     width: 100%;
 }
+
+.header-block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav{
+    display: felx;
+    column-gap: 123px;
+}
+
+.nav-link{
+    display: flex;
+    column-gap: 60px;
+}
