@@ -1,7 +1,34 @@
+:root{
+    --pewterBlue: #81ADC8;
+    --davysGrey: #4D4D4D;
+    --vermillion: #CD4631;
+    --champagne: #F7EDE8;
+    --aliceBlue: #EDF3F7;
+}
+
 .container{
     box-sizing: border-box;
     padding: 0 140px;
     max-width: 1160px;
+    width: 100%;
     margin: 0 auto;
     padding: 0 140px;
+    font-family: 'Montserrat alternates';
+}
+
+.link{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.link:hover{
+    color: var(--vermillion);
+    text-decoration: underline;
+}
+
+.logo{
+    max-width: 74px;
+    width: 100%;
 }
